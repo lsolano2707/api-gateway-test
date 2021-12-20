@@ -1,0 +1,25 @@
+{
+  "name": "api-gateway-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api-gateway-start": "node api-gateway/index.js",
+    "api-gateway-start:dev": "nodemon api-gateway/index.js",
+    "feed-start": "node feed-service/index.js",
+    "feed-start:dev": "nodemon feed-service/index.js",
+    "hashtag-start": "node hashtag-service/index.js",
+    "hashtag-start:dev": "nodemon hashtag-service/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "leonardo solano",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
